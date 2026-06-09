@@ -1,12 +1,12 @@
-# Matrix-Matrix-Multiplication-on-Zynq-UltraScale-MPSoC-ZCU102
+# Matrix-Vector-Multiplication-on-Zynq-UltraScale-MPSoC-ZCU102
 
 ## Overview
 
-This project implements a **Matrix Multiplication Accelerator** on the **Zynq UltraScale+ MPSoC ZCU102** development platform using RTL design techniques. The accelerator leverages FPGA parallelism to improve computational throughput and demonstrates efficient hardware implementation of a fundamental operation widely used in scientific computing, digital signal processing, and machine learning applications.
+This project implements a **Matrix Vector Accelerator** on the **Zynq UltraScale+ MPSoC ZCU102** development platform using RTL design techniques. The accelerator leverages FPGA parallelism to improve computational throughput and demonstrates efficient hardware implementation of a fundamental operation widely used in scientific computing, digital signal processing, and machine learning applications.
 
 ## Objectives
 
-* Design and implement matrix multiplication using Verilog RTL.
+* Design and implement matrix vector multiplication using Verilog RTL.
 * Exploit hardware parallelism for high-performance computation.
 * Evaluate FPGA resource utilization and timing performance.
 * Demonstrate hardware acceleration on the Zynq UltraScale+ MPSoC platform.
@@ -57,7 +57,7 @@ This project implements a **Matrix Multiplication Accelerator** on the **Zynq Ul
 
 ## Results
 
-The implementation demonstrates the effectiveness of FPGA-based parallel processing for matrix multiplication workloads, providing significant acceleration compared to conventional sequential software execution.
+The implementation demonstrates the effectiveness of FPGA-based parallel processing for matrix vector workloads, providing significant acceleration compared to conventional sequential software execution.
 
 ## Future Work
 
